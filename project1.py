@@ -1,3 +1,5 @@
+#this code for your gf or bf to show your love.
+
 import turtle
 
 t = turtle.Turtle()
@@ -6,7 +8,7 @@ s = turtle.Turtle()
 t.hideturtle()
 
 t.pensize(3)
-t.color('blue')
+t.color('red')
 t.begin_fill()
 t.left(140)
 t.forward(180)
@@ -21,7 +23,7 @@ t.penup()
 t.goto(-130, 130)
 t.pendown()
 t.color('white')
-t.write(" Seni seviyorum", font=("Arial", 25, "bold"))  
+t.write("I love you", font=("Arial", 25, "bold"))  
 turtle.done()
 
 turtle.mainloop()
